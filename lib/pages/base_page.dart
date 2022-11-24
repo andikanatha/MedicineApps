@@ -1,6 +1,6 @@
+import 'package:apoo_flutter/pages/cart.dart';
 import 'package:apoo_flutter/theme.dart';
 import 'package:flutter/material.dart';
-
 import 'history_page.dart';
 import 'home_page.dart';
 import 'profile_page.dart';
@@ -18,7 +18,7 @@ class _BasePageState extends State<BasePage> {
   int currentIndex = 0;
   final List<Widget> body = [
     HomePage(),
-    SalesPage(),
+    Cartpage(),
     PurchasingPage(),
     HistoryPage(),
     ProfilePage(),
@@ -58,9 +58,9 @@ class _BasePageState extends State<BasePage> {
               'Home',
             ),
             buildNavBarItem(
-              'assets/icon-catalog.png',
+              'assets/icon-order.png',
               1,
-              'Product',
+              'Cart',
             ),
             buildNavBarItem(
               'assets/icon-search.png',

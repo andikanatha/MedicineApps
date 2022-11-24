@@ -97,16 +97,16 @@ class _HomePageState extends State<HomePage> {
           ),
           Spacer(),
 
-          InkWell(
-            child: Icon(Icons.shopping_cart_rounded),
-            onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => Cartpage(),
-                  ));
-            },
-          ),
+          // InkWell(
+          //   child: Icon(Icons.shopping_cart_rounded),
+          //   onTap: () {
+          //     Navigator.push(
+          //         context,
+          //         MaterialPageRoute(
+          //           builder: (context) => Cartpage(),
+          //         ));
+          //   },
+          // ),
           // Image.asset(
           //   'assets/notification.png',
           //   width: 50,
